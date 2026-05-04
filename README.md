@@ -1,19 +1,36 @@
-VPN-Monitoring-APP
+ VPN-Monitoring-APP
 
-A simple desktop application that monitors VPN connection status in real time. It reads settings from a JSON configuration file and helps users quickly detect whether the VPN is connected or disconnected.
+A desktop application that monitors VPN connection status in real time. It helps users quickly detect whether VPN connections and important network endpoints are online or offline.
 
 Features
-Real-time VPN status monitoring
-Lightweight and fast
-Easy configuration using JSON
-User-friendly interface
+
+* Real-time VPN gateway monitoring
+* Static IP and Test IP tracking
+* Online/Offline status indicators
+* Easy configuration using JSON
+* Simple and user-friendly interface
 
 Technologies Used
-Desktop Application (.exe)
-JSON configuration
 
-How to Use
-Download the repository
-Open vpn_config.json and configure settings
-Run VPN_Monitor.exe
-Monitor your VPN status in real time
+* Desktop Application (.exe)
+* JSON Configuration
+
+ How to Use
+
+1. Download this repository
+2. Open `vpn_config.json` and configure settings
+3. Run `VPN_Monitor.exe`
+4. Monitor VPN status in real time
+
+Project Files
+
+* `VPN_Monitor.exe` → Main application
+* `vpn_config.json` → Configuration file
+* `README.md` → Documentation
+
+ Use Cases
+
+* VPN connection monitoring
+* Network troubleshooting
+* IT infrastructure monitoring
+
