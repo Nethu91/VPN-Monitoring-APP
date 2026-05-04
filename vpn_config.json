@@ -1,0 +1,69 @@
+{
+    "vpn_gateways": [
+        {
+            "ip": "10.16.2.254",
+            "name": "SAL-Dompe_FC",
+            "enabled": true
+        },
+        {
+            "ip": "10.16.4.254",
+            "name": "Nawala-HO",
+            "enabled": true
+        },
+        {
+            "ip": "10.16.6.254",
+            "name": "SAL-Mabima_WH",
+            "enabled": true
+        },
+        {
+            "ip": "10.14.2.252",
+            "name": "SC-Balummahara_FC",
+            "enabled": true
+        },
+        {
+            "ip": "10.2.93.1",
+            "name": "SC-Nadungamuwa_WH",
+            "enabled": true
+        },
+        {
+            "ip": "10.15.2.1",
+            "name": "SC-Weliweriya_RFC",
+            "enabled": true
+        }
+    ],
+    "test_ips": [
+        {
+            "ip": "10.16.2.47",
+            "name": "Local Network",
+            "enabled": true
+        },
+        {
+            "ip": "8.8.8.8",
+            "name": "Google DNS",
+            "enabled": true
+        },
+        {
+            "ip": "1.1.1.1",
+            "name": "Cloudflare DNS",
+            "enabled": true
+        }
+    ],
+    "static_ips": [],
+    "email_settings": {
+        "enabled": true,
+        "from": "swisstekaluminium1@gmail.com",
+        "to": [
+            "nileesha@swisstekaluminium.com",
+            "swisstekadmin@swisstekaluminium.com",
+            "bhathiyak@swisstekaluminium.com",
+            "dinura@swisstekaluminium.com",
+            "nethmini@swisstekaluminium.com"
+        ],
+        "smtp_pass": "dtnhuwnjppqndvwa"
+    },
+    "ui_settings": {
+        "start_minimized": false,
+        "minimize_to_tray": true,
+        "show_notifications": true
+    }
+}
